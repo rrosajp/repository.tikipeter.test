@@ -1,2 +1,2 @@
-# Version 3.0.28
-- Fixed "Link Media to Debrid Cloud" feature.
+# Version 3.0.28b
+- Fixed broken IMDB lists (to an extent). Clear IMDb cache.
