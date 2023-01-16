@@ -53,9 +53,10 @@
             <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
         </extension>
     </addon>
-    <addon id="skin.FENtastic" name="FENtastic" provider-name="phil65, Ichabod Fletchman, Ivar Brandt, Tikipeter" version="0.0.2">
+    <addon id="skin.fenstruary" version="0.5.1" name="Fenstruary" provider-name="phil65, Ichabod Fletchman, Tikipeter">
         <requires>
             <import addon="xbmc.gui" version="5.15.0" />
+            <import addon="script.fenstruary.helper" />
         </requires>
         <extension point="xbmc.gui.skin" debugging="false">
             <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -68,21 +69,21 @@
             <res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">FENtastic skin by Ivar Brandt, Tikipeter. (Estuary MOD)</summary>
-            <summary lang="en_NZ">FENtastic skin by Ivar Brandt, Tikipeter. (Estuary MOD)</summary>
-            <summary lang="en_US">FENtastic skin by Ivar Brandt, Tikipeter. (Estuary MOD)</summary>
-            <description lang="en_GB">FENtastic is a light Estuary MOD designed for use specifically with FEN. It attempts to be easy for first time Kodi users to understand and use.</description>
-            <description lang="en_NZ">FENtastic is a light Estuary MOD designed for use specifically with FEN. It attempts to be easy for first time Kodi users to understand and use.</description>
-            <description lang="en_US">FENtastic is a light Estuary MOD designed for use specifically with FEN. It attempts to be easy for first time Kodi users to understand and use.</description>
-            <disclaimer lang="en_GB">FENtastic requires the Fen Kodi addon.</disclaimer>
-            <disclaimer lang="en_NZ">FENtastic requires the Fen Kodi addon.</disclaimer>
-            <disclaimer lang="en_US">FENtastic requires the Fen Kodi addon.</disclaimer>
+            <summary lang="en_GB">Fenstruary skin by phil65, Ichabod Fletchman, Tikipeter</summary>
+            <summary lang="en_NZ">Fenstruary skin by phil65, Ichabod Fletchman, Tikipeter</summary>
+            <summary lang="en_US">Fenstruary skin by phil65, Ichabod Fletchman, Tikipeter</summary>
+            <description lang="en_GB">Fenstruary is used with the Fen Addon.</description>
+            <description lang="en_NZ">Fenstruary is used with the Fen Addon.</description>
+            <description lang="en_US">Fenstruary is used with the Fen Addon.</description>
+            <disclaimer lang="en_GB">Fenstruary is used with the Fen Addon.</disclaimer>
+            <disclaimer lang="en_NZ">Fenstruary is used with the Fen Addon.</disclaimer>
+            <disclaimer lang="en_US">Fenstruary is used with the Fen Addon.</disclaimer>
             <platform>all</platform>
             <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
             <forum>http://forum.kodi.tv/</forum>
-            <source>https://github.com/xbmc/skin.estuary/</source>
+            <source>https://github.com/xbmc/skin.Fenstruary/</source>
             <assets>
-                <icon>resources/icon.jpg</icon>
+                <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
                 <screenshot>resources/screenshot-01.jpg</screenshot>
                 <screenshot>resources/screenshot-02.jpg</screenshot>
@@ -93,6 +94,26 @@
                 <screenshot>resources/screenshot-07.jpg</screenshot>
                 <screenshot>resources/screenshot-08.jpg</screenshot>
             </assets>
+        </extension>
+    </addon>
+    <addon id="script.fenstruary.helper" name="Fenstruary Helper" version="0.5.1" provider-name="Tikipeter">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+        </requires>
+        <extension point="xbmc.python.library" library="resources/lib/default.py"/>
+        <extension point="xbmc.addon.metadata">
+            <news />
+            <platform>all</platform>
+            <license>GPL-2.0-only</license>
+            <forum />
+            <source />
+            <assets>
+                <icon>resources/media/icon.png</icon>
+                <fanart>resources/media/fanart.jpg</fanart>
+            </assets>
+            <description lang="en_GB">Fenstruary Helper for the Fenstruary Skin.</description>
+            <description lang="en_NZ">Fenstruary Helper for the Fenstruary Skin.</description>
+            <description lang="en_US">Fenstruary Helper for the Fenstruary Skin.</description>
         </extension>
     </addon>
     <addon id="repository.tikipeter.test" name="Tikipeter's Test Repository" version="1.0.0" provider-name="Tikipeter">
