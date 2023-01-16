@@ -53,7 +53,7 @@
             <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
         </extension>
     </addon>
-    <addon id="skin.fenstruary" version="0.5.1" name="Fenstruary" provider-name="phil65, Ichabod Fletchman, Tikipeter">
+    <addon id="skin.fenstruary" version="0.5.2" name="Fenstruary" provider-name="phil65, Ichabod Fletchman, Tikipeter">
         <requires>
             <import addon="xbmc.gui" version="5.15.0" />
             <import addon="script.fenstruary.helper" />
@@ -96,7 +96,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.fenstruary.helper" name="Fenstruary Helper" version="0.5.1" provider-name="Tikipeter">
+    <addon id="script.fenstruary.helper" name="Fenstruary Helper" version="0.5.2" provider-name="Tikipeter">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
