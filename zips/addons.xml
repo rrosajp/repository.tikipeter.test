@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.1.08">
+    <addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.1.08a">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" version="2.19.1" />
@@ -53,7 +53,7 @@
             <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
         </extension>
     </addon>
-    <addon id="skin.fenstruary" name="Fenstruary" provider-name="phil65, Ichabod Fletchman, Tikipeter" version="0.6.14">
+    <addon id="skin.fenstruary" name="Fenstruary" provider-name="phil65, Ichabod Fletchman, Tikipeter" version="0.6.15">
         <requires>
             <import addon="xbmc.gui" version="5.15.0" />
             <import addon="script.fenstruary.helper" />
