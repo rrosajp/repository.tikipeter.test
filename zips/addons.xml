@@ -96,7 +96,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.fenstruary.helper" name="Fenstruary Helper" provider-name="Tikipeter" version="0.7.1">
+    <addon id="script.fenstruary.helper" name="Fenstruary Helper" provider-name="Tikipeter" version="0.7.2">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
