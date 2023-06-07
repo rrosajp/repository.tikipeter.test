@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.1.12a">
+    <addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.1.12b">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" version="2.19.1" />
@@ -96,7 +96,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.fenstruary.helper" name="Fenstruary Helper" provider-name="Tikipeter" version="0.7.9">
+    <addon id="script.fenstruary.helper" name="Fenstruary Helper" provider-name="Tikipeter" version="0.7.10">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
