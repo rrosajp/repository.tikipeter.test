@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.fenlight" name="Fen Light" provider-name="Tikipeter" version="0.0.26">
+    <addon id="plugin.video.fenlight" name="Fen Light" provider-name="Tikipeter" version="0.0.27">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests" version="2.19.1"/>
@@ -24,7 +24,7 @@
             <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
         </extension>
     </addon>
-    <addon id="skin.fenstruary" name="Fenstruary" provider-name="phil65, Ichabod Fletchman, Tikipeter" version="0.6.34">
+    <addon id="skin.fenstruary" name="Fenstruary" provider-name="phil65, Ichabod Fletchman, Tikipeter" version="0.6.35">
         <requires>
             <import addon="xbmc.gui" version="5.15.0" />
             <import addon="script.fenstruary.helper" />
